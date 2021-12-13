@@ -4,14 +4,440 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project</title>
+    <title>HelloUI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+    <header>
+        <div class="container site-header">
+            <h1 class="site-logo">
+                <a class="site-logo__link" href="#">HelloUI</a>
+            </h1>
+            <div class="site-nav-sign-in-wrapper">
+                <nav class="site-nav">
+                    <ul class="site-nav__list">
+                        <li class="site-nav__item">
+                            <a href="#" class="site-nav__link">Docs</a>
+                        </li>
+                        <li class="site-nav__item">
+                            <a href="#" class="site-nav__link">Tools</a>
+                        </li>
+                        <li class="site-nav__item">
+                            <a href="#" class="site-nav__link">Freatures</a>
+                        </li>
+                        <li class="site-nav__item">
+                            <a href="#" class="site-nav__link">Pricing</a>
+                        </li>
+                        <li class="site-nav__item">
+                            <a href="#" class="site-nav__link">Jobs</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="sign-in-wrapper">
+                    <a class="sign-in__link" href="#">Sign in</a>
+                    <a href="#" class="btn btn--blue sign-in__btn">
+                        Try for Free
+                        <span class="first-ball ball"></span>
+                        <span class="second-ball ball"></span>
+                        <span class="third-ball ball"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main-content">
+        <section class="container site-hero">
+            <h2 class="site-hero__heading">
+                Grow up your sells with us.
+            </h2>
+            <p class="site-hero__text">
+                Build one project that runs natively on all your term now users' devices to turn for that you can do.
+            </p>
+            <div class="site-hero__btn-wrapper">
+                <a class="btn btn--blue site-hero__btn" href="#">Try for Free
+                        <span class="first-ball ball"></span>
+                        <span class="second-ball ball"></span>
+                        <span class="third-ball ball"></span>
+                </a>
+                <a class="btn btn--white site-hero__btn" href="#">Discover in Video
+                        <span class="first-ball ball"></span>
+                        <span class="second-ball ball"></span>
+                        <span class="third-ball ball"></span>
+                </a>
+            </div>
+            <div class="site-hero__img-wrapper">
+                <img class="site-hero__img" src="/img/platform-view.jpg" alt="platform-view" width="966" height="706"  srcset="/img/platform-view.jpg 1x, /img/platform-view@2x.jpg 2x">
+            </div>
+            <div class="site-hero-info-companies-wrapper">
+                <p class="site-hero-info-companies__text">
+                    More than 1.8 million people across 50,000 companies choose Spellon
+                </p>
+                <div class="site-hero__companies">
+                    <img class="site-hero__companies__img" src="/img/jll.svg" alt="icon-jll" width="73" height="33">
+                    <img class="site-hero__companies__img" src="/img/netflix.svg" alt="icon-netflix" width="104" height="28">
+                    <img class="site-hero__companies__img" src="/img/hubspot.svg" alt="icon-hubspot" width="101" height="30">
+                    <img class="site-hero__companies__img" src="/img/atlassian.svg" alt="icon-atlassian" width="188" height="23">
+                    <img class="site-hero__companies__img" src="/img/juniper-networks.svg" alt="icon-juniper-networks" width="99" height="28">
+                    <img class="site-hero__companies__img" src="/img/lacoste.svg" alt="" width="131" height="20">
+                </div>
+                <span class="site-hero-info-companies__highlight"></span>
+            </div>
+        </section>
+        <section class="site-about container">
+            <h4 class="site-about__title">
+                Award-winning logistics services.Powered by technology, delivered by experts.
+            </h4>
+            <p class="site-about__text">
+                Businesses are leaving money on the table every day due to missed supply chain opportunities. Zencargo unlocks your potential with digital freight forwarding that drives cost savings and revenue improvements for your business.
+            </p>
+            <a href="#" class="site-about__btn">
+                <span class="btn btn--lightblue site-about__btn-inner">
+                    <svg class="site-about__btn-icon" width="27" height="27" xmlns="http://www.w3.org/2000/svg"><circle cx="13.5" cy="13.5" fill="#fff" r="12.15"/><path d="M13.5 6.796c-.582 0-1.055.472-1.055 1.055v6.792a1.055 1.055 0 1 0 2.11 0V7.85c0-.583-.473-1.055-1.055-1.055ZM13.5 19.837a1.424 1.424 0 1 0 0-2.848 1.424 1.424 0 0 0 0 2.848Z" fill="currentColor"/></svg>
+                    <span class="site-about__btn-text">See How Spellon Work</span>
+                </span>
+            </a>
+        </section>
+        <section class="features second-container">
+            <div class="features__card-wrapper">
+                <div class="features__info-wrapper">
+                    <h3 class="title-xm features__title">Develop</h3>
+                    <p class="features__text">
+                        Develop for all your users' devices with just one codebase. Add fast refresh, true native capabilities, and your creativity, and you'll have the app your users want in no time.
+                    </p>
+                    <div class="features__link-wrapper">
+                        <a href="#" class="features__link">Learn more about spellon</a>
+                    </div>
+                </div>
+                <div class="features__img-wrapper">
+                    <img src="/img/man-with-computer.jpg" alt="man-with-computer" class="features__img" width="457" height="460" srcset="/img/man-with-computer.jpg 1x, /img/man-with-computer@2x.jpg 2x">
+                    <img src="/img/dots.svg" alt="" class="features__dots features__right-dots">
+                    <img src="/img/rectangle.svg" alt="" class="features__rectangle features__right-rectangle">
+                    <img src="/img/ellipse-green.svg" alt="" class="features__ellipse-green features__right-ellipse-green">
+                    <img src="/img/ellipse-orange.svg" alt="" class="features__ellipse-orange features__right-ellipse-orange">
+                </div>
+            </div>
+            <div class="features__card-wrapper">
+                <div class="features__info-wrapper">
+                    <h3 class="title-xm features__title">Build</h3>
+                    <p class="features__text">
+                        Develop for all your users' devices with just one codebase. Add fast refresh, true native capabilities, and your creativity, and you'll have the app your users want in no time.
+                    </p>
+                    <div class="features__link-wrapper">
+                        <a href="#" class="features__link">Learn more about spellon</a>
+                    </div>
+                </div>
+                <div class="features__img-wrapper">
+                    <img src="/img/computer-and-coffee.jpg" alt="computer-and-coffee" class="features__img" width="457" height="460" srcset="/img/computer-and-coffee.jpg 1x, /img/computer-and-coffee@2x.jpg 2x">
+                    <img src="/img/dots.svg" alt="" class="features__dots features__left-dots">
+                    <img src="/img/rectangle.svg" alt="" class="features__rectangle features__left-rectangle">
+                    <img src="/img/ellipse-green.svg" alt="" class="features__ellipse-green features__left-ellipse-green">
+                    <img src="/img/ellipse-orange.svg" alt="" class="features__ellipse-orange features__left-ellipse-orange">
+                </div>
+            </div>
+            <div class="features__card-wrapper">
+                <div class="features__info-wrapper">
+                    <h3 class="title-xm features__title">Update</h3>
+                    <p class="features__text">
+                        Develop for all your users' devices with just one codebase. Add fast refresh, true native capabilities, and your creativity, and you'll have the app your users want in no time.
+                    </p>
+                    <div class="features__link-wrapper">
+                        <a href="#" class="features__link">Learn more about spellon</a>
+                    </div>
+                </div>
+                <div class="features__img-wrapper">
+                    <img src="/img/phone-settings.jpg" alt="phone-settings.jpg" class="features__img" width="457" height="460" srcset="/img/phone-settings.jpg 1x, /img/phone-settings@2x.jpg 2x">
+                    <img src="/img/dots.svg" alt="" class="features__dots features__right-dots">
+                    <img src="/img/rectangle.svg" alt="" class="features__rectangle features__right-rectangle">
+                    <img src="/img/ellipse-green.svg" alt="" class="features__ellipse-green features__right-ellipse-green">
+                    <img src="/img/ellipse-orange.svg" alt="" class="features__ellipse-orange features__right-ellipse-orange">
+                </div>
+            </div>
+        </section> 
+        <section class="feedback">
+            <div class="container feedback-info">
+                <p class="feedback-info__text">
+                    Over 2000 businesses, marketers and creatives use Suparise to grow their Instagram.
+                </p>
+                <h3 class="title-xm feedback__heading">
+                    Don’t just take our word for it
+                </h3>
+                <ul class="feedback-list">
+                    <li class="feedback-item">
+                        <div class="feedback-item__user-info-wrapper">
+                            <div class="feedback-item__user-wrapper">
+                                <a href="#" class="feedback-item__user-img-link">
+                                    <img src="/img/lisa-miller.jpg" alt="photo lisa-miller" class="feedback-item__user-img" width="45" height="45" srcset="/img/lisa-miller.jpg 1x, /img/lisa-miller@2x.jpg 2x">
+                                </a>
+                                <div class="feedback-item__user-name-wrapper">
+                                    <div class="feedback-item__user-verification-wrapper">
+                                        <a href="#" class="feedback-item__user-link">Lisa Miller</a>
+                                        <img src="/img/verification.png" alt="icon-verification" class="feedback-item__user-verification-img" width="15" height="16"
+                                        srcset="/img/verification.png 1x, /img/verification@2x.png 2x">
+                                    </div>
+                                    <a href="#" class="feedback-item__user-name-link">@LisaMillerCool</a>
+                                </div>
+                            </div>
+                            <a href="#" class="feedback-item__twitter-link">
+                                <img src="/img/twitter.svg" alt="icon twitter" class="feedback-item__twitter-img" width="25" height="20">
+                            </a>
+                        </div>
+                        <p class="feedback-item__text">It’s difficult to make a tool that is powerful, easy video to use, and stays out of the way. @expo has student figured it out and it’s one of the most and they want to pleasurable dev experiences I’ve had in my seen that career goal.
+                        </p>
+                        <p class="feedback-item__text">It’s difficult to make a tool that is powerful, easy video to use, and stays out of the way. @expo has student figured it out and it’s one of the most and they want to pleasurable dev experiences I’ve had in my seen that career goal.
+                        </p>
+                    </li>
+                    <li class="feedback-item">
+                        <div class="feedback-item__user-info-wrapper">
+                            <div class="feedback-item__user-wrapper">
+                                <a href="#" class="feedback-item__user-img-link">
+                                    <img src="/img/bri.jpg" alt="photo lisa-miller" class="feedback-item__user-img" width="45" height="45" srcset="/img/bri.jpg 1x, /img/bri@2x.jpg 2x">
+                                </a>
+                                <div class="feedback-item__user-name-wrapper">
+                                    <div class="feedback-item__user-verification-wrapper">
+                                        <a href="#" class="feedback-item__user-link">Bri</a>
+                                    </div>
+                                    <a href="#" class="feedback-item__user-name-link">@BriDehlinger</a>
+                                </div>
+                            </div>
+                            <a href="#" class="feedback-item__twitter-link">
+                                <img src="/img/twitter.svg" alt="icon twitter" class="feedback-item__twitter-img" width="25" height="20">
+                            </a>
+                        </div>
+                        <p class="feedback-item__text">It’s difficult to make a tool that is powerful, easy video to use, and stays out of the way. @expo has student figured it out and it’s one of the most and they want to pleasurable dev experiences I’ve had in my seen that career goal.
+                        </p>
+                    </li>
+                    <li class="feedback-item">
+                        <div class="feedback-item__user-info-wrapper">
+                            <div class="feedback-item__user-wrapper">
+                                <a href="#" class="feedback-item__user-img-link">
+                                    <img src="/img/carolmckeon.jpg" alt="photo lisa-miller" class="feedback-item__user-img" width="45" height="45" srcset="/img/carolmckeon.jpg 1x, /img/carolmckeon@2x.jpg 2x">
+                                </a>
+                                <div class="feedback-item__user-name-wrapper">
+                                    <div class="feedback-item__user-verification-wrapper">
+                                        <a href="#" class="feedback-item__user-link">CarolMcKeon</a>
+                                    </div>
+                                    <a href="#" class="feedback-item__user-name-link">@LisaMillerCool</a>
+                                </div>
+                            </div>
+                            <a href="#" class="feedback-item__twitter-link">
+                                <img src="/img/twitter.svg" alt="icon twitter" class="feedback-item__twitter-img" width="25" height="20">
+                            </a>
+                        </div>
+                        <p class="feedback-item__text">It’s difficult to make a tool that is powerful, easy video to use, and stays out of the way. @expo has student figured it out and it’s one of the most and they want to pleasurable dev experiences I’ve had in my seen that career goal.</p>
+                        <p class="feedback-item__text">It’s difficult to make a tool that is powerful, easy video to use, and stays out of the way. @expo has student figured it out.</p>
+                    </li>
+                    <li class="feedback-item">
+                        <div class="feedback-item__user-info-wrapper">
+                            <div class="feedback-item__user-wrapper">
+                                <a href="#" class="feedback-item__user-img-link">
+                                    <img src="/img/wes-johnson.jpg" alt="photo lisa-miller" class="feedback-item__user-img" width="45" height="45" srcset="/img/wes-johnson.jpg 1x, /img/wes-johnson@2x.jpg 2x">
+                                </a>
+                                <div class="feedback-item__user-name-wrapper">
+                                    <div class="feedback-item__user-verification-wrapper">
+                                        <a href="#" class="feedback-item__user-link">Wes Johnson</a>
+                                    </div>
+                                    <a href="#" class="feedback-item__user-name-link">@LisaMillerCool</a>
+                                </div>
+                            </div>
+                            <a href="#" class="feedback-item__twitter-link">
+                                <img src="/img/twitter.svg" alt="icon twitter" class="feedback-item__twitter-img" width="25" height="20">
+                            </a>
+                        </div>
+                        <p class="feedback-item__text">It’s difficult to make a tool that is powerful, easy video to use, and stays out of the way. @expo has student figured it out and it’s one of the most and they want to pleasurable dev experiences I’ve had in my seen that career goal.</p>
+                    </li>
+                    <li class="feedback-item">
+                        <div class="feedback-item__user-info-wrapper">
+                            <div class="feedback-item__user-wrapper">
+                                <a href="#" class="feedback-item__user-img-link">
+                                    <img src="/img/lisa-miller2.jpg" alt="photo lisa-miller" class="feedback-item__user-img" width="45" height="45" srcset="/img/lisa-miller2.jpg 1x, /img/lisa-miller2@2x.jpg 2x">
+                                </a>
+                                <div class="feedback-item__user-name-wrapper">
+                                    <div class="feedback-item__user-verification-wrapper">
+                                        <a href="#" class="feedback-item__user-link">Lisa Miller</a>
+                                        <img src="/img/verification.png" alt="icon-verification" class="feedback-item__user-verification-img" width="15" height="16"
+                                        srcset="/img/verification.png 1x, /img/verification@2x.png 2x">
+                                    </div>
+                                    <a href="#" class="feedback-item__user-name-link">@LisaMillerCool</a>
+                                </div>
+                            </div>
+                            <a href="#" class="feedback-item__twitter-link">
+                                <img src="/img/twitter.svg" alt="icon twitter" class="feedback-item__twitter-img" width="25" height="20">
+                            </a>
+                        </div>
+                        <p class="feedback-item__text">It’s difficult to make a tool that is powerful, easy video to use, and stays out of the way. @expo has student figured it out and it’s one of the most and they want to pleasurable dev experiences I’ve had in my seen that career goal.</p>
+                        <p class="feedback-item__text">It’s difficult to make a tool that is powerful, easy video to use.</p>
+                    </li>
+                    <li class="feedback-item">
+                        <div class="feedback-item__user-info-wrapper">
+                            <div class="feedback-item__user-wrapper">
+                                <a href="#" class="feedback-item__user-img-link">
+                                    <img src="/img/traver.jpg" alt="photo lisa-miller" class="feedback-item__user-img" width="45" height="45" srcset="/img/traver.jpg 1x, /img/traver@2x.jpg 2x">
+                                </a>
+                                <div class="feedback-item__user-name-wrapper">
+                                    <div class="feedback-item__user-verification-wrapper">
+                                        <a href="#" class="feedback-item__user-link">Traver</a>
+                                    </div>
+                                    <a href="#" class="feedback-item__user-name-link">@LisaMillerCool</a>
+                                </div>
+                            </div>
+                            <a href="#" class="feedback-item__twitter-link">
+                                <img src="/img/twitter.svg" alt="icon twitter" class="feedback-item__twitter-img" width="25" height="20">
+                            </a>
+                        </div>
+                        <p class="feedback-item__text">It’s difficult to make a tool that is powerful, easy video to use, and stays out of the way. @expo has student figured it out and it’s one of the most and they want to pleasurable dev experiences I’ve had in my seen that career goal.</p>
+                        <p class="feedback-item__text">It’s difficult to make a tool that is powerful, easy video to use, and stays out of the way. @expo has student figured it out and it’s one of the most and they want to pleasurable dev experiences I’ve had in my seen that career goal.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>            
+    </main>
+    <footer class="site-footer">
+        <div class="container site-footer__content">
+            <div class="site-footer__heading-form-wrapper">
+                <h3 class="site-footer__heading">It’s easy to get started. Start now.</h3>
+                <form class="email-form" action="https://echo.htmlacademy.ru" method="GET">
+                    <input class="email-form__input" type="email" name="email" aria-label="Enter your email" placeholder="Enter your email" required>
+                    <div class="email-form__btn-wrapper">
+                        <button class="email-form__btn" type="submit">Get Started</button>
+                    </div>
+                </form>
+            </div>
+            <div class="our-info-footer-nav-wrapper">
+                <div class="our-info">
+                    <h4 class="our-info__title">Spellon.</h4>
+                    <ul class="our-info__list">
+                        <li class="our-info__item">
+                            <a class="our-info__link footer__link-hover" href="https://yandex.ru" target="_blank">Nort West, South New Work,United State</a>
+                        </li>
+                        <li class="our-info__item">
+                            <a class="our-info__link footer__link-hover" href="tel:+12462540569">+1 246-254-0569</a>
+                        </li>
+                        <li class="our-info__item">
+                            <a class="our-info__link footer__link-hover" href="mailto:Info@example.com" target="_blank">Info@example.com</a>
+                        </li>
+                    </ul>
+                    <ul class="our-info__socail-list">
+                        <li class="our-info__social-item">
+                            <a href="#" class="our-info__social-link" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"><path d="M16.403 9H14V7c0-1.032.084-1.682 1.563-1.682h.868a1 1 0 0 0 1-1V3.064c0-.523-.401-.97-.923-1.005A26.154 26.154 0 0 0 14.693 2C11.98 2 10 3.657 10 6.699V9H8a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1l2-.001V21a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-8.003l2.174-.001a1 1 0 0 0 .993-.886l.229-1.996A1 1 0 0 0 16.403 9z" fill="currentColor" /></svg>
+                            </a>
+                        </li>
+                        <li class="our-info__social-item">
+                            <a href="#" class="our-info__social-link" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" width="16" height="16"><path d="M256 0C114.842 0 0 114.842 0 256s114.842 256 256 256 256-114.842 256-256S397.158 0 256 0zm-83.233 49.548c-15.431 21.032-26.894 45.924-35.095 70.354-14.907-5.344-28.707-11.736-41.104-19.09 21.407-21.985 47.304-39.572 76.199-51.264zm-97.873 77.154c15.971 9.964 34.036 18.452 53.65 25.317-6.467 27.334-10.344 56.811-11.382 87.284H34.016c3.112-41.778 17.808-80.38 40.878-112.601zm-.001 258.595c-23.069-32.219-37.766-70.822-40.878-112.601h83.145c1.038 30.474 4.915 59.95 11.382 87.284-19.613 6.865-37.676 15.353-53.649 25.317zm21.676 25.89c12.397-7.354 26.197-13.746 41.104-19.09 8.2 24.428 19.663 49.32 35.095 70.354-28.896-11.691-54.793-29.278-76.199-51.264zm142.735 64.339c-34.478-12.654-57.72-57.982-69.619-92.899 21.841-5.198 45.296-8.391 69.619-9.4v102.299zm0-135.713c-27.403 1.061-53.935 4.708-78.711 10.722-5.624-24.321-9.038-50.587-10.029-77.84h88.74v67.118zm0-100.509h-88.74c.99-27.253 4.404-53.518 10.029-77.84 24.776 6.014 51.308 9.661 78.711 10.722v67.118zm0-100.531c-24.322-1.008-47.777-4.203-69.619-9.4 11.89-34.894 35.131-80.242 69.619-92.899v102.299zm197.803-12.07c23.069 32.219 37.766 70.822 40.878 112.601H394.84c-1.038-30.474-4.915-59.95-11.382-87.284 19.613-6.865 37.676-15.353 53.649-25.317zm-21.676-25.89c-12.397 7.354-26.197 13.746-41.104 19.09-8.2-24.428-19.663-49.32-35.095-70.354 28.896 11.691 54.793 29.278 76.199 51.264zM272.696 36.474c34.478 12.654 57.72 57.982 69.619 92.899-21.841 5.198-45.296 8.391-69.619 9.4V36.474zm0 135.713c27.403-1.061 53.935-4.708 78.711-10.722 5.624 24.321 9.038 50.587 10.029 77.84h-88.74v-67.118zm0 100.397h88.74c-.99 27.253-4.404 53.63-10.029 77.951-24.776-6.014-51.308-9.661-78.711-10.722v-67.229zm0 202.942V373.227c24.322 1.008 47.777 4.203 69.619 9.4-11.89 34.893-35.132 80.241-69.619 92.899zm66.537-13.074c15.431-21.032 26.894-45.924 35.095-70.354 14.907 5.344 28.706 11.736 41.104 19.09-21.407 21.985-47.304 39.572-76.199 51.264zm97.873-77.154c-15.971-9.964-34.036-18.452-53.65-25.317 6.467-27.334 10.344-56.922 11.382-87.395h83.145c-3.111 41.778-17.807 80.491-40.877 112.712z" fill="currentColor" /></svg>
+                            </a>
+                        </li>
+                        <li class="our-info__social-item">
+                            <a href="#" class="our-info__social-link" target="_blank">
+                                <svg aria-hidden="true" data-prefix="fab" data-icon="instagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="16" height="16"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-nav">
+                    <div class="footer-nav__col">
+                        <h5 class="footer-nav__title">Resources</h5>
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link footer__link-hover">
+                                    Docs
+                                </a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link footer__link-hover">
+                                    Forums
+                                </a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link footer__link-hover">
+                                    Jobs
+                                </a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link footer__link-hover">
+                                    Join Discord
+                                </a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link footer__link-hover">
+                                    Consultants
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav__col">
+                        <h5 class="footer-nav__title">Company</h5>
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link footer__link-hover">
+                                    About Us
+                                </a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link footer__link-hover">
+                                    Careers
+                                </a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link footer__link-hover">
+                                    Block Chain
+                                </a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link footer__link-hover">
+                                    Privacy Policy
+                                </a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link footer__link-hover">
+                                    Terms & Condition
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav__col">
+                        <h5 class="footer-nav__title">Legal</h5>
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link footer__link-hover">
+                                    Terms of use
+                                </a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link footer__link-hover">
+                                    Privacy policy
+                                </a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link footer__link-hover">
+                                    GDPR/CCPA explained
+                                </a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link footer__link-hover">
+                                    Guidlines
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <img src="/img/dots-big.svg" alt="" class="site-footer___figure-dots" width="317" height="333">
+            <img src="/img/ellipse-orange.svg" alt="" class="site-footer___figure-ellipse-orange" width="188" height="188" />
+            <div class="site-footer___figure-circle-blue"></div>
+            <div class="site-footer___figure-round"></div>
+            <div class="site-footer___figure-circle-transparent"></div>
+        </div>
+        <span class="site-footer__copyright">
+            &copy;	2021 Hello All right reserved.
+        </span>
+    </footer>
 
-    
+
     <script src="js/main.js"></script>
 </body>
 </html>
